@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+
+  <title>Galeria</title>
+     
+  <style>
+body {
+            background-image: linear-gradient(to bottom, #fdcbf1, #e6dee9);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    /* Style dla galerii */
+    .gallery-container 
+
+
+{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+       border-radius: 5px;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+    .gallery-item:hover img {
+      transform: scale(1.1);
+    }
+    .gallery-item .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    /* Style dla przycisku powrotu */
+    .back-button {
+      display: inline-block;
+            padding: 5px 10px;
+            background-color: #0099cc;
+            color: #ffffff;
+           
+            border-radius: 5px;
+            margin-top: 10px;
+    }
+.back-button:hover {
+            background-color: #0077b3;
+
+  </style>
+</head>
+<body>
+<div style="text-align: center;">
+  <header>
+    <h1>Galeria</h1>
+  </header>
+</div>
+  <div class="gallery-container">
+    <div class="gallery-item">
+      <img src="1.jpg" alt="Obrazek 1">
+      <div class="caption">Wiedźmin 3: Dziki Gon - okładka gry</div>
+    </div>
+    <div class="gallery-item">
+      <img src="8.jpg" alt="Obrazek 2">
+      <div class="caption">Wiedźmin 3: Dziki Gon - główny bohater</div>
+    </div>
+    <div class="gallery-item">
+      <img src="7.jpg" alt="Obrazek 3">
+      <div class="caption">Wiedźmin 3: Dziki Gon - rozgrywka</div>
+    </div>
+    <div class="gallery-item">
+      <img src="2.jpg" alt="Obrazek 3">
+      <div class="caption">Grand Theft Auto V - okładka gry</div>
+    </div>
+<div class="gallery-item">
+      <img src="9.jpg" alt="Obrazek 3">
+      <div class="caption">Grand Theft Auto V - główni bohaterowie</div>
+    </div>
+<div class="gallery-item">
+      <img src="10.jpg" alt="Obrazek 3">
+      <div class="caption">Grand Theft Auto V - rozgrywka</div>
+    </div>
+<div class="gallery-item">
+      <img src="3.png" alt="Obrazek 3">
+      <div class="caption">Cyberpunk 2077 - okładka gry</div>
+    </div>
+<div class="gallery-item">
+      <img src="11.jpg" alt="Obrazek 3">
+      <div class="caption">Cyberpunk 2077 - główny bohater</div>
+    </div>
+<div class="gallery-item">
+      <img src="12.jpeg" alt="Obrazek 3">
+      <div class="caption">Cyberpunk 2077 - rozgrywka</div>
+    </div>
+<div class="gallery-item">
+      <img src="4.jpg" alt="Obrazek 3">
+      <div class="caption">Red Dead Redemption 2 - okładka gry</div>
+    </div>
+<div class="gallery-item">
+      <img src="13.jpg" alt="Obrazek 3">
+      <div class="caption">Red Dead Redemption 2 - główny bohater</div>
+    </div>
+<div class="gallery-item">
+      <img src="14.jpg" alt="Obrazek 3">
+      <div class="caption">Red Dead Redemption 2 - rozgrywka</div>
+    </div>
+<div class="gallery-item">
+      <img src="5.jpg" alt="Obrazek 3">
+      <div class="caption">Assassin's Creed Valhalla  - okładka gry</div>
+    </div>
+<div class="gallery-item">
+      <img src="15.jpeg" alt="Obrazek 3">
+      <div class="caption">Assassin's Creed Valhalla  - główny bohater</div>
+    </div>
+<div class="gallery-item">
+      <img src="16.jpg" alt="Obrazek 3">
+      <div class="caption">Assassin's Creed Valhalla  - rozgrywka</div>
+    </div>
+  </div>
+<div style="text-align: center;">
+  <div class="back-button">
+    <a href="C:\Users\macko\OneDrive\Obrazy\strona\strona.html">Powrót do strony głównej</a>
+  </div>
+</body>
+</html>
